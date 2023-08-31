@@ -1,1 +1,32 @@
 /* your code */
+/* *{
+	background-color:blue;
+} */
+table{
+	border-collapse: collapse;
+	width:60%;
+	margin:auto;
+	text-align: center;
+	font-family: Arial, saddlebrown;
+}
+th{
+	background-color:darkblue;
+	color:white;
+	padding:10px;
+	border:2px solid green
+}
+td{
+	padding:5px;
+	border:2px solid gray
+}
+ tr:nth-child(even) {
+    background-color:gainsboro;
+  }
+th:first-child,
+td:first-child {
+    border-left: none;
+  }
+th:last-child,
+td:last-child{
+	border-right:none
+}
